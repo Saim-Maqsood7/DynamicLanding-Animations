@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+#center{
+    position: relative;
+    height: 80%;
+    width: 70%;
+    /* background-color: azure; */
+}
+.imagecontainer{
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    /* background-color: rebeccapurple; */
+}
+/* jab bi hame kisi image ko animate krwana ho tu us k parent div ki widht zero krna padhta hy 
+na k image tag ki width ko  */
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+.text{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+}
+h1{
+    overflow: hidden;
+    font-size: 4vw;
+    position: absolute;
+    bottom: -10%;
+    left: 5%;
+    z-index: 9999;
+    color: blanchedalmond;
+}
+p{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    /* background-color: rebeccapurple; */
+    
+}
